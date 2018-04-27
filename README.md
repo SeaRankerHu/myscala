@@ -8,3 +8,4 @@ fi
 $HADOOP_HOME/bin/hadoop fs -put ./target/*.jar /user/root/
 $SPARK_HOME/bin/spark-submit --master spark://node1:7077 --deploy-mode cluster --class com.fact.spark.rdd.SimpleApp hdfs://hhjcluster/user/root/myscala-1.0-SNAPSHOT.jar
 ======================================
+======================================
