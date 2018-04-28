@@ -18,6 +18,8 @@ object HelloWorld {
   def main( args: Array[String] ){
     println("hello world!!!!!!!!!!");
     var dd = 22;
+	
+	println("=======hello world=========")
   }
   //println(dd + 33);
   var ss = "2222";
@@ -39,7 +41,7 @@ object HelloWorld {
     evt.put("11","222")
   }
   
-  println("================")
+  
 
 
 }
