@@ -20,7 +20,6 @@ object HelloWorld {
     var dd = 22;
 	
 	println("=======hello world=========")
-	println("=======hello world=========")
   }
   //println(dd + 33);
   var ss = "2222";
